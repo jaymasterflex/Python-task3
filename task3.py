@@ -4,7 +4,7 @@ medium = random.randint (1,20)
 hard = random.randint (1,50)
 guessesTaken = 0
 my_name = input("Hello, What is your name? ")
-difficulty = input("Well, "+ my_name + ". What dificulty would you like ? easy medium or hard? ")
+difficulty = input("Well, "+ my_name + ". What dificulty would you like ? easy medium or hard? ").lower()
 if difficulty == "easy":
     number = easy
     guessLen = 6
